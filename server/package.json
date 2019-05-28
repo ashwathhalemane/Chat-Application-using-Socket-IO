@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Real time chat-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha server/**/*.test.js",
+    "start": "node server/server.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "ashwath.halemane",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^24.8.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
